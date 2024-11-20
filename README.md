@@ -38,6 +38,3 @@ Note for the composition, one should compute the sensitivity for the points at m
 `compute_sensitivity.py` with different `stage` and save the sensitivity in the same result file).
 
 Please make sure to load the correct sensitivity result file when computing the guarantees.
-
-### Questions or suggestions
-If you have any questions or suggestions, feel free to raise an issue or reach out to us via email.
