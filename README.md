@@ -1,13 +1,3 @@
-# Gradients Look Alike: Sensitivity is Often Overestimated in DP-SGD
-
-This repository is an implementation of the paper [Gradients Look Alike: Sensitivity is Often Overestimated in DP-SGD](https://arxiv.org/abs/2307.00310), accepted to the 33rd USENIX Security
-Symposium. In this paper we provided analysis for the per-instance guarantees of DP-SGD, giving a tool to explain the failure of privacy attacks on many datapoints (on common datasets) and also show the possibility of efficient unlearning for many points, amongst other implications. This was done by introducing new per-instance per-step analyses, and a new per-instance composition theorem.
-
-We test our code on two datasets: MNIST, and CIFAR-10. 
-
-### Dependency
-Our code is implemented and tested on PyTorch. See `requirements.txt` for details.
-
 ### Compute Sensitivity
 One must compute the sensitivity of certain data points before computing their per-instance guarantees of DP-SGD.
 
