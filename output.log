@@ -1,0 +1,673 @@
+nohup: ignoring input
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+mkdir models/ckpt3
+path to result file: res/res3.csv
+models/ckpt3/model_step_0
+checkpoints not found, starting training
+Test Accuracy: 51.77 %
+Test Accuracy: 12.64 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_200
+Test Accuracy: 46.86 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_500
+Test Accuracy: 57.48 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_700
+Test Accuracy: 57.05 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_900
+Test Accuracy: 55.73 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_1200
+Test Accuracy: 55.52 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_1400
+Test Accuracy: 56.56 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_1600
+Test Accuracy: 58.38 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_1900
+Test Accuracy: 57.21 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_2100
+Test Accuracy: 54.19 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_2300
+Test Accuracy: 51.44 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_2600
+Test Accuracy: 52.75 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_2800
+Test Accuracy: 52.65 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_3000
+Test Accuracy: 55.8 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_3300
+Test Accuracy: 51.88 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_3500
+Test Accuracy: 48.04 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_3700
+Test Accuracy: 46.08 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_4000
+Test Accuracy: 50.91 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_4200
+Test Accuracy: 50.69 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_4400
+Test Accuracy: 54.54 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_4600
+Test Accuracy: 51.25 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_4900
+Test Accuracy: 50.31 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_5100
+Test Accuracy: 52.53 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_5300
+Test Accuracy: 47.2 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_5600
+Test Accuracy: 54.36 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_5800
+Test Accuracy: 51.99 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_6000
+Test Accuracy: 52.18 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_6300
+Test Accuracy: 53.75 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_6500
+Test Accuracy: 51.71 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_6700
+Test Accuracy: 52.49 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_7000
+Test Accuracy: 52.12 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_7200
+Test Accuracy: 51.1 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_7400
+Test Accuracy: 51.68 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_7700
+Test Accuracy: 54.25 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_7900
+Test Accuracy: 51.72 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_8100
+Test Accuracy: 53.22 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_8400
+Test Accuracy: 55.92 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_8600
+Test Accuracy: 55.96 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_8800
+Test Accuracy: 52.21 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_9100
+Test Accuracy: 52.08 %
+10 points to analyze
+/h/321/ashmita/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/Gradients-Look-Alike-Sensitivity-is-Often-Overestimated-in-DP-SGD/train.py:50: UserWarning: Checkpointing directory is not empty models/ckpt3
+  warnings.warn(f"Checkpointing directory is not empty {self.save_dir}")
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/privacy_engine.py:143: UserWarning: Secure RNG turned off. This is perfectly fine for experimentation as it allows for much faster training performance, but remember to turn it on and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res3.csv
+models/ckpt3/model_step_9300
+Test Accuracy: 50.52 %
+10 points to analyze
+ and retrain one last time before production with ``secure_mode`` turned on.
+  "Secure RNG turned off. This is perfectly fine for experimentation as it allows "
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/rdp.py:333: UserWarning: Optimal order is the largest alpha. Please consider expanding the range of alphas to get a tighter privacy bound.
+  f"Optimal order is the {extreme} alpha. Please consider expanding the range of alphas to get a tighter privacy bound."
+/h/321/ashmita/.local/lib/python3.7/site-packages/opacus/accountants/analysis/prv/prvs.py:50: RuntimeWarning: invalid value encountered in log
+  z = np.log((np.exp(t) + q - 1) / q)
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/h/321/ashmita/.local/lib/python3.7/site-packages/torch/nn/modules/module.py:1117: UserWarning: Using a non-full backward hook when the forward contains multiple autograd Nodes is deprecated and will be removed in future versions. This hook will be missing some grad_input. Please use register_full_backward_hook to get the documented behavior.
+  warnings.warn("Using a non-full backward hook when the forward contains multiple autograd Nodes "
+path to result file: res/res{3}.csv
+models/ckpt{3}/model_step_9300
+Test Accuracy: 48.67 %
+10 points to analyze
+./run.sh: line 13: x: command not found

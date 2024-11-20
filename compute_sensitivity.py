@@ -8,14 +8,14 @@ import utils
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--points', nargs="+", type=int, default=[0, 1], help='indices of data points to compute sensitivity')
-parser.add_argument('--batch-size', type=int, default=128)
+parser.add_argument('--points', nargs="+", type=int, default=list(range(10)), help='indices of data points to compute sensitivity')
+parser.add_argument('--batch-size', type=int, default=256)
 parser.add_argument('--num-iters', type=int, default=20, help='only useful for renyi')
 parser.add_argument('--alpha', type=int, default=8, help='only useful for renyi')
 parser.add_argument('--num-batches', type=int, default=100, help='only useful for renyi')
 parser.add_argument('--lr', type=float, default=0.1)
 parser.add_argument('--cn', type=float, default=1, help='clipping norm')
-parser.add_argument('--epochs', type=int, default=200)
+parser.add_argument('--epochs', type=int, default=40)
 parser.add_argument('--dp', type=int, default=1)
 parser.add_argument('--eps', type=float, default=10)
 parser.add_argument('--optimizer', type=str, default="sgd")
@@ -23,18 +23,18 @@ parser.add_argument('--dataset', type=str, default="MNIST")
 parser.add_argument('--model', type=str, default="lenet")
 parser.add_argument('--norm-type', type=str, default="gn", help="Note that batch norm is not compatible with DPSGD")
 parser.add_argument('--save-freq', type=int, default=100, help='frequence of saving checkpoints')
-parser.add_argument('--save-name', type=str, default='ckpt', help='checkpoints will be saved under models/[save-name]')
-parser.add_argument('--res-name', type=str, default='res', help='sensitivity will be saved in res/[res-name].csv')
+parser.add_argument('--save-name', type=str, default='ckpt0', help='checkpoints will be saved under models/[save-name]')
+parser.add_argument('--res-name', type=str, default='res0', help='sensitivity will be saved in res/[res-name].csv')
 parser.add_argument('--gamma', type=float, default=None, help='for learning rate schedule')
 parser.add_argument('--dec-lr', nargs="+", type=int, default=None, help='for learning rate schedule')
 parser.add_argument('--id', type=str, default='', help="experiment id")
-parser.add_argument('--seed', type=int, default=0)
+parser.add_argument('--seed', type=int, default=23)
 parser.add_argument('--overwrite', type=int, default=0, help="whether overwrite existing result files")
 parser.add_argument('--poisson-train', type=int, default=1, help="should always be 1 for correct DPSGD")
 parser.add_argument('--stage', type=str, default='initial', help='initial, middle, final, or 0 to 1 where 0 means not'
                                                                  'training has beend done and 1 means training finishes')
 parser.add_argument('--reduction', type=str, default='sum', help="update rule, mean or sum")
-parser.add_argument('--exp', type=str, default='renyi', help='experiment type: eps_delta, or renyi')
+parser.add_argument('--exp', type=str, default='eps_delta', help='experiment type: eps_delta, or renyi')
 parser.add_argument('--less-point', type=int, default=0, help="if set to 1, we consider the dataset with 1 less point."
                                                               "Note the missing point will impact how training, so"
                                                               "in this case arg.points can only contain 1 point.")
@@ -70,6 +70,8 @@ print(f"path to result file: {res_dir}")
 step = utils.find_ckpt(arg.stage, trainset_size, arg.batch_size, arg.save_freq, arg.epochs)
 cur_path = f"{train_fn.save_dir}/model_step_{step}"
 
+print(cur_path)
+
 ###########
 # the code block below checks if training is needed by looking for the checkpoints
 if not os.path.exists(cur_path):
@@ -92,9 +94,9 @@ accuracy = train_fn.validate()
 if os.path.exists(res_dir) and not arg.overwrite:
     temp_df = pd.read_csv(res_dir)
     if "renyi" in arg.exp and arg.reduction == "mean":
-        temp_df = temp_df[(temp_df['type'] == arg.stage) & (temp_df['alpha'] == arg.alpha)]
+        temp_df = temp_df[(temp_df['stage'] == arg.stage) & (temp_df['alpha'] == arg.alpha)]
     else:
-        temp_df = temp_df[temp_df['type'] == arg.stage]
+        temp_df = temp_df[temp_df['stage'] == arg.stage]
     if temp_df.shape[0] != 0:
         tested_points = temp_df["point"].unique()
         points_list = [point for point in tested_points]

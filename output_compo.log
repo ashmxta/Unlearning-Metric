@@ -1,0 +1,163 @@
+nohup: ignoring input
+run.sh has completed. Starting composition calculations...
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  9.396861e-06
+1        0   200  8.269579e+00
+2        0   500  8.181127e+00
+3        0   700  8.122693e+00
+4        0   900  6.070917e-08
+..     ...   ...           ...
+405      9  8400  1.100327e+01
+406      9  8600  1.092454e+01
+407      9  8800  1.084650e+01
+408      9  9100  2.289223e-17
+409      9  9300  1.877474e-11
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res0.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.121297e-05
+1        0   200  8.269536e+00
+2        0   500  8.181137e+00
+3        0   700  1.063301e-09
+4        0   900  8.064565e+00
+..     ...   ...           ...
+405      9  8400  1.471794e-03
+406      9  8600  1.092454e+01
+407      9  8800  1.084653e+01
+408      9  9100  1.073049e+01
+409      9  9300  1.065388e+01
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res1.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.082067e-05
+1        0   200  8.269615e+00
+2        0   500  8.181107e+00
+3        0   700  8.122646e+00
+4        0   900  8.064683e+00
+..     ...   ...           ...
+405      9  8400  1.100318e+01
+406      9  8600  2.330619e-17
+407      9  8800  1.925602e-09
+408      9  9100  1.073048e+01
+409      9  9300  5.256108e-07
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res2.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0      0.0     0  9.368167e-06
+1      0.0   200  8.269590e+00
+2      0.0   500  8.181173e+00
+3      0.0   700  1.504664e-04
+4      0.0   900  8.064588e+00
+..     ...   ...           ...
+405    9.0  8400  2.465021e-11
+406    9.0  8600  1.092454e+01
+407    9.0  8800  1.084649e+01
+408    9.0  9100  4.505698e-13
+409    9.0  9300  2.272871e-17
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res3.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.117132e-05
+1        0   200  8.269537e+00
+2        0   500  4.335433e-14
+3        0   700  8.122666e+00
+4        0   900  8.064666e+00
+..     ...   ...           ...
+405      9  8400  1.100312e+01
+406      9  8600  1.092451e+01
+407      9  8800  1.423931e-08
+408      9  9100  1.715420e-02
+409      9  9300  1.065383e+01
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res4.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.298256e-05
+1        0   200  8.269541e+00
+2        0   500  8.181155e+00
+3        0   700  8.122662e+00
+4        0   900  8.064627e+00
+..     ...   ...           ...
+405      9  8400  2.347386e-17
+406      9  8600  4.337136e-15
+407      9  8800  2.313971e-17
+408      9  9100  1.073048e+01
+409      9  9300  3.924745e-08
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res5.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.461648e-05
+1        0   200  8.269565e+00
+2        0   500  8.181159e+00
+3        0   700  8.122673e+00
+4        0   900  8.064625e+00
+..     ...   ...           ...
+405      9  8400  1.100314e+01
+406      9  8600  1.121610e-16
+407      9  8800  1.084653e+01
+408      9  9100  1.073051e+01
+409      9  9300  1.065392e+01
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res6.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.224771e-05
+1        0   200  8.269514e+00
+2        0   500  8.181080e+00
+3        0   700  8.122746e+00
+4        0   900  8.064614e+00
+..     ...   ...           ...
+405      9  8400  2.347386e-17
+406      9  8600  1.092452e+01
+407      9  8800  1.113599e-16
+408      9  9100  2.289223e-17
+409      9  9300  6.338314e-10
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res7.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  8.964187e-06
+1        0   200  8.269612e+00
+2        0   500  8.181040e+00
+3        0   700  8.122693e+00
+4        0   900  8.064653e+00
+..     ...   ...           ...
+405      9  8400  2.347386e-17
+406      9  8600  1.092453e+01
+407      9  8800  1.084650e+01
+408      9  9100  2.289223e-17
+409      9  9300  2.272871e-17
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res8.csv
+Using 41 checkpoints
+     point  step  Privacy cost
+0        0     0  1.099958e-05
+1        0   200  8.269483e+00
+2        0   500  8.181144e+00
+3        0   700  2.703728e-09
+4        0   900  8.064658e+00
+..     ...   ...           ...
+405      9  8400  1.100314e+01
+406      9  8600  1.092457e+01
+407      9  8800  1.084653e+01
+408      9  9100  1.073053e+01
+409      9  9300  1.065384e+01
+
+[410 rows x 3 columns]
+Results saved to res/compo_results/compo_res9.csv
+Composition calculations completed.

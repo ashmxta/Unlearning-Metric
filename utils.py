@@ -92,7 +92,7 @@ def load_dataset(dataset, train, download=False, apply_transform=False):
 
 
 def get_optimizer(dataset, net, lr, num_batch, dec_lr=None, privacy_engine=None, gamma=0.1, optimizer="sgd"):
-    if dataset == 'MNIST' and optimizer == "sgd":
+    if dataset == 'MNIST' and optimizer == "sgd": #default momentum is 0
         optimizer = optim.SGD(net.parameters(), lr=lr)
         scheduler = None
     elif dataset == 'CIFAR10' and optimizer == "sgd":

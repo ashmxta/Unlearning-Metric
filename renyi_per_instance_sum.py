@@ -1,7 +1,7 @@
 #This script computes the per-step per-instance Renyi DP guarantees for the sum update rule
 import pandas as pd
 import numpy as np
-import scipy
+import scipy.special
 import math
 
 
